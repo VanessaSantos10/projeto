@@ -44,7 +44,8 @@ body * /* seletor universal */ {
 #container {
   /* border: 1px (unidade de medida fixa) solid white; */
   /* height: 712px; */
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   /* 
   margin-top: 56px;
   margin-right: auto;
@@ -108,7 +109,6 @@ body * /* seletor universal */ {
   right: 0;
   left: initial;
 }
-
 
 #switch span {
   display: block;
